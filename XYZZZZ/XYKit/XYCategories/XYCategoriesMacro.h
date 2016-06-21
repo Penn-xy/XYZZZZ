@@ -10,5 +10,5 @@
 #import <sys/time.h>
 #import <pthread.h>
 
-#ifndef YYCategoriesMacro_h
+#ifndef XYCategoriesMacro_h
 #define XYCategoriesMacro_h
