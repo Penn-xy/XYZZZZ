@@ -109,6 +109,7 @@
 		7871AE921D18CA360031AD41 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AE811D18CA360031AD41 /* UIImageView+WebCache.m */; };
 		7871AE931D18CA360031AD41 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AE831D18CA360031AD41 /* UIView+WebCacheOperation.m */; };
 		952EEC351D197CCB00248BE5 /* XYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC341D197CCB00248BE5 /* XYKeyboardManager.m */; };
+		952EEC381D1AD09B00248BE5 /* XYDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC371D1AD09B00248BE5 /* XYDispatchQueuePool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -312,6 +313,8 @@
 		7871AE831D18CA360031AD41 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		952EEC331D197CCB00248BE5 /* XYKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYKeyboardManager.h; path = XYZZZZ/XYKit/XYKeyboardManager.h; sourceTree = SOURCE_ROOT; };
 		952EEC341D197CCB00248BE5 /* XYKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYKeyboardManager.m; path = XYZZZZ/XYKit/XYKeyboardManager.m; sourceTree = SOURCE_ROOT; };
+		952EEC361D1AD09B00248BE5 /* XYDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYDispatchQueuePool.h; path = XYZZZZ/XYKit/XYDispatchQueuePool.h; sourceTree = SOURCE_ROOT; };
+		952EEC371D1AD09B00248BE5 /* XYDispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYDispatchQueuePool.m; path = XYZZZZ/XYKit/XYDispatchQueuePool.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,6 +492,8 @@
 		7871ADA61D18C41A0031AD41 /* XYDispatchQueuePool */ = {
 			isa = PBXGroup;
 			children = (
+				952EEC361D1AD09B00248BE5 /* XYDispatchQueuePool.h */,
+				952EEC371D1AD09B00248BE5 /* XYDispatchQueuePool.m */,
 			);
 			path = XYDispatchQueuePool;
 			sourceTree = "<group>";
@@ -822,6 +827,7 @@
 				7871AE8A1D18CA360031AD41 /* SDWebImageDownloaderOperation.m in Sources */,
 				7871AE361D18C6040031AD41 /* UITextField+YYAdd.m in Sources */,
 				952EEC351D197CCB00248BE5 /* XYKeyboardManager.m in Sources */,
+				952EEC381D1AD09B00248BE5 /* XYDispatchQueuePool.m in Sources */,
 				7871ADAD1D18C41A0031AD41 /* NSKeyedUnarchiver+XYAdd.m in Sources */,
 				7871AE8C1D18CA360031AD41 /* SDWebImagePrefetcher.m in Sources */,
 				7871ADC41D18C41A0031AD41 /* UIView+XYAdd.m in Sources */,

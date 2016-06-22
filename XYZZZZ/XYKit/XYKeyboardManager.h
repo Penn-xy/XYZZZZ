@@ -29,8 +29,8 @@ typedef struct {
 
 @interface XYKeyboardManager : NSObject
 
-- (instancetype)init;
-+ (instancetype)new;
+- (instancetype)init  UNAVAILABLE_ATTRIBUTE;
++ (instancetype)new UNAVAILABLE_ATTRIBUTE;
 
 + (instancetype)defaultManager;
 

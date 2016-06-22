@@ -159,12 +159,12 @@ static int _XYKeyboardViewFrameObserverKey;
     });
 }
 
-- (void)addObserver:(id<YYKeyboardObserver>)observer {
+- (void)addObserver:(id<XYKeyboardObserver>)observer {
     if (!observer) return;
     [_observers addObject:observer];
 }
 
-- (void)removeObserver:(id<YYKeyboardObserver>)observer {
+- (void)removeObserver:(id<XYKeyboardObserver>)observer {
     if (!observer) return;
     [_observers removeObject:observer];
 }
