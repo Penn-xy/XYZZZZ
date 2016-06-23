@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+CountDown.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)actionDoSomething:(UIButton *)sender {
+    
+    [sender countDownFromTime:5 unitTitle:@"秒" completion:^(UIButton *countDownButton) {
+        NSLog(@"😄");
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
