@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIButton+CountDown.h"
+#import "YYCategoriesMacro.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%d", YY_CLAMP(6, 2, 3));
+    
 }
 
 - (IBAction)actionDoSomething:(UIButton *)sender {

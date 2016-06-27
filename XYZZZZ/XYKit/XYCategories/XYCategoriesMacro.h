@@ -32,6 +32,7 @@ XY_EXTERN_C_BEGIN
 #define XY_SWAP(_a_, _b_)  do { __typeof__(_a_) _tmp_ = (_a_); (_a_) = (_b_); (_b_) = _tmp_; } while (0)
 #endif
 
+
 #define XYAssertNil(condition, description, ...) NSAssert(!(condition), (description), ##__VA_ARGS__)
 #define XYCAssertNil(condition, description, ...) NSCAssert(!(condition), (description), ##__VA_ARGS__)
 
@@ -40,6 +41,8 @@ XY_EXTERN_C_BEGIN
 
 #define XYAssertMainThread() NSAssert([NSThread isMainThread], @"This method must be called on the main thread")
 #define XYCAssertMainThread() NSCAssert([NSThread isMainThread], @"This method must be called on the main thread")
+
+
 
 
 #ifndef XYSYNTH_DUMMY_CLASS
@@ -232,3 +235,4 @@ assert(res == 0); \
 
 XY_EXTERN_C_END
 #endif
+

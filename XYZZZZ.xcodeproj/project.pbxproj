@@ -112,6 +112,9 @@
 		7871AE931D18CA360031AD41 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AE831D18CA360031AD41 /* UIView+WebCacheOperation.m */; };
 		952EEC351D197CCB00248BE5 /* XYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC341D197CCB00248BE5 /* XYKeyboardManager.m */; };
 		952EEC381D1AD09B00248BE5 /* XYDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC371D1AD09B00248BE5 /* XYDispatchQueuePool.m */; };
+		952EEC3B1D1C2BDE00248BE5 /* XYSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC3A1D1C2BDE00248BE5 /* XYSentinel.m */; };
+		952EEC3E1D1C2D1200248BE5 /* XYTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC3D1D1C2D1200248BE5 /* XYTransaction.m */; };
+		952EEC411D1C2ECB00248BE5 /* XYAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC401D1C2ECB00248BE5 /* XYAsyncLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -321,6 +324,12 @@
 		952EEC341D197CCB00248BE5 /* XYKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYKeyboardManager.m; path = XYZZZZ/XYKit/XYKeyboardManager.m; sourceTree = SOURCE_ROOT; };
 		952EEC361D1AD09B00248BE5 /* XYDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYDispatchQueuePool.h; path = XYZZZZ/XYKit/XYDispatchQueuePool.h; sourceTree = SOURCE_ROOT; };
 		952EEC371D1AD09B00248BE5 /* XYDispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYDispatchQueuePool.m; path = XYZZZZ/XYKit/XYDispatchQueuePool.m; sourceTree = SOURCE_ROOT; };
+		952EEC391D1C2BDE00248BE5 /* XYSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYSentinel.h; path = XYZZZZ/XYKit/XYSentinel.h; sourceTree = SOURCE_ROOT; };
+		952EEC3A1D1C2BDE00248BE5 /* XYSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYSentinel.m; path = XYZZZZ/XYKit/XYSentinel.m; sourceTree = SOURCE_ROOT; };
+		952EEC3C1D1C2D1200248BE5 /* XYTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYTransaction.h; path = XYZZZZ/XYKit/XYTransaction.h; sourceTree = SOURCE_ROOT; };
+		952EEC3D1D1C2D1200248BE5 /* XYTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYTransaction.m; path = XYZZZZ/XYKit/XYTransaction.m; sourceTree = SOURCE_ROOT; };
+		952EEC3F1D1C2ECB00248BE5 /* XYAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYAsyncLayer.h; path = XYZZZZ/XYKit/XYAsyncLayer.h; sourceTree = SOURCE_ROOT; };
+		952EEC401D1C2ECB00248BE5 /* XYAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYAsyncLayer.m; path = XYZZZZ/XYKit/XYAsyncLayer.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,6 +420,12 @@
 		7871AD651D18C4190031AD41 /* XYAsyncLayer */ = {
 			isa = PBXGroup;
 			children = (
+				952EEC391D1C2BDE00248BE5 /* XYSentinel.h */,
+				952EEC3A1D1C2BDE00248BE5 /* XYSentinel.m */,
+				952EEC3C1D1C2D1200248BE5 /* XYTransaction.h */,
+				952EEC3D1D1C2D1200248BE5 /* XYTransaction.m */,
+				952EEC3F1D1C2ECB00248BE5 /* XYAsyncLayer.h */,
+				952EEC401D1C2ECB00248BE5 /* XYAsyncLayer.m */,
 			);
 			path = XYAsyncLayer;
 			sourceTree = "<group>";
@@ -833,6 +848,7 @@
 				7871AE921D18CA360031AD41 /* UIImageView+WebCache.m in Sources */,
 				7871AE271D18C6040031AD41 /* NSTimer+YYAdd.m in Sources */,
 				7871ADB41D18C41A0031AD41 /* NSTimer+XYAdd.m in Sources */,
+				952EEC411D1C2ECB00248BE5 /* XYAsyncLayer.m in Sources */,
 				7871AE201D18C6040031AD41 /* NSNotificationCenter+YYAdd.m in Sources */,
 				7871ADC01D18C41A0031AD41 /* UIScreen+XYAdd.m in Sources */,
 				7871AE2E1D18C6040031AD41 /* UIControl+YYAdd.m in Sources */,
@@ -890,6 +906,7 @@
 				7871AE611D18C9D70031AD41 /* AFURLSessionManager.m in Sources */,
 				7871AE1F1D18C6040031AD41 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				7871AE281D18C6040031AD41 /* CALayer+YYAdd.m in Sources */,
+				952EEC3E1D1C2D1200248BE5 /* XYTransaction.m in Sources */,
 				7871ADAC1D18C41A0031AD41 /* NSDictionary+XYAdd.m in Sources */,
 				7871ADC21D18C41A0031AD41 /* UITableView+XYAdd.m in Sources */,
 				7871AE321D18C6040031AD41 /* UIImage+YYAdd.m in Sources */,
@@ -898,6 +915,7 @@
 				7871ADBD1D18C41A0031AD41 /* UIFont+XYAdd.m in Sources */,
 				7871AE1D1D18C6040031AD41 /* NSDate+YYAdd.m in Sources */,
 				7871AE5D1D18C9D70031AD41 /* AFNetworkReachabilityManager.m in Sources */,
+				952EEC3B1D1C2BDE00248BE5 /* XYSentinel.m in Sources */,
 				7871AD4F1D18C40D0031AD41 /* main.m in Sources */,
 				7871AE241D18C6040031AD41 /* NSObject+YYAddForKVO.m in Sources */,
 				7871AE301D18C6040031AD41 /* UIFont+YYAdd.m in Sources */,
