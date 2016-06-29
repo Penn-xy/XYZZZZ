@@ -7,7 +7,43 @@
 //
 
 #import "NSKeyedUnarchiver+XYAdd.h"
+#import "XYCategoriesMacro.h"
+
+//XYSYNTH_DUMMY_CLASS(NSKeyedUnarchiver_XYAdd)
+
+
 
 @implementation NSKeyedUnarchiver (XYAdd)
+
++ (id)unarchiveObjectWithData:(NSData *)data exception:(__autoreleasing NSException **)exception {
+    id object = nil;
+    @try {
+        object = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    }
+    @catch (NSException *e)
+    {
+        if (exception) *exception = e;
+    }
+    @finally
+    {
+    }
+    return object;
+}
+
++ (id)unarchiveObjectWithFile:(NSString *)path exception:(__autoreleasing NSException **)exception {
+    id object = nil;
+    
+    @try {
+        object = [NSKeyedUnarchiver unarchiveObjectWithFile:path];
+    }
+    @catch (NSException *e)
+    {
+        if (exception) *exception = e;
+    }
+    @finally
+    {
+    }
+    return object;
+}
 
 @end
