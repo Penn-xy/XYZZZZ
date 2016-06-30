@@ -110,6 +110,10 @@
 		7871AE911D18CA360031AD41 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AE7F1D18CA360031AD41 /* UIImageView+HighlightedWebCache.m */; };
 		7871AE921D18CA360031AD41 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AE811D18CA360031AD41 /* UIImageView+WebCache.m */; };
 		7871AE931D18CA360031AD41 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AE831D18CA360031AD41 /* UIView+WebCacheOperation.m */; };
+		9524042E1D22C2BC0074CE72 /* 可达鸭.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524042D1D22C2BC0074CE72 /* 可达鸭.png */; };
+		952404351D255E8C0074CE72 /* adimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 952404301D255E8C0074CE72 /* adimage.png */; };
+		952404361D255E8C0074CE72 /* IMYADLaunchDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 952404321D255E8C0074CE72 /* IMYADLaunchDemo.m */; };
+		952404371D255E8C0074CE72 /* IMYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952404341D255E8C0074CE72 /* IMYWebViewController.m */; };
 		952EEC351D197CCB00248BE5 /* XYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC341D197CCB00248BE5 /* XYKeyboardManager.m */; };
 		952EEC381D1AD09B00248BE5 /* XYDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 952EEC371D1AD09B00248BE5 /* XYDispatchQueuePool.m */; };
 /* End PBXBuildFile section */
@@ -317,6 +321,12 @@
 		7871AE811D18CA360031AD41 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		7871AE821D18CA360031AD41 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		7871AE831D18CA360031AD41 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		9524042D1D22C2BC0074CE72 /* 可达鸭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "可达鸭.png"; path = "../../可达鸭.png"; sourceTree = "<group>"; };
+		952404301D255E8C0074CE72 /* adimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adimage.png; path = ../../XYKit/Classes/adimage.png; sourceTree = "<group>"; };
+		952404311D255E8C0074CE72 /* IMYADLaunchDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYADLaunchDemo.h; sourceTree = "<group>"; };
+		952404321D255E8C0074CE72 /* IMYADLaunchDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYADLaunchDemo.m; sourceTree = "<group>"; };
+		952404331D255E8C0074CE72 /* IMYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYWebViewController.h; sourceTree = "<group>"; };
+		952404341D255E8C0074CE72 /* IMYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYWebViewController.m; sourceTree = "<group>"; };
 		952EEC331D197CCB00248BE5 /* XYKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYKeyboardManager.h; path = XYZZZZ/XYKit/XYKeyboardManager.h; sourceTree = SOURCE_ROOT; };
 		952EEC341D197CCB00248BE5 /* XYKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYKeyboardManager.m; path = XYZZZZ/XYKit/XYKeyboardManager.m; sourceTree = SOURCE_ROOT; };
 		952EEC361D1AD09B00248BE5 /* XYDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYDispatchQueuePool.h; path = XYZZZZ/XYKit/XYDispatchQueuePool.h; sourceTree = SOURCE_ROOT; };
@@ -388,9 +398,10 @@
 		7871AD4D1D18C40D0031AD41 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7871AE391D18C7100031AD41 /* Framework */,
+				952404381D25602D0074CE72 /* someSource */,
 				7871AE381D18C61D0031AD41 /* ThirdParty */,
 				7871ADC51D18C5A00031AD41 /* SomeDemo */,
+				7871AE391D18C7100031AD41 /* Framework */,
 				7871AD641D18C4190031AD41 /* XYKit */,
 				7871AD4E1D18C40D0031AD41 /* main.m */,
 			);
@@ -528,6 +539,7 @@
 		7871ADC51D18C5A00031AD41 /* SomeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9524042F1D255E8C0074CE72 /* Classes */,
 				7871ADD81D18C6040031AD41 /* YYCategories */,
 				7871ADCE1D18C5EE0031AD41 /* YYAsyncLayer */,
 				7871ADCA1D18C5E20031AD41 /* YYDispatchQueuePool */,
@@ -755,6 +767,34 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		9524042F1D255E8C0074CE72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				952404311D255E8C0074CE72 /* IMYADLaunchDemo.h */,
+				952404321D255E8C0074CE72 /* IMYADLaunchDemo.m */,
+				952404331D255E8C0074CE72 /* IMYWebViewController.h */,
+				952404341D255E8C0074CE72 /* IMYWebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		952404381D25602D0074CE72 /* someSource */ = {
+			isa = PBXGroup;
+			children = (
+				952404391D25602D0074CE72 /* image */,
+			);
+			path = someSource;
+			sourceTree = "<group>";
+		};
+		952404391D25602D0074CE72 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9524042D1D22C2BC0074CE72 /* 可达鸭.png */,
+				952404301D255E8C0074CE72 /* adimage.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -813,8 +853,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7871AD5D1D18C40D0031AD41 /* LaunchScreen.storyboard in Resources */,
+				9524042E1D22C2BC0074CE72 /* 可达鸭.png in Resources */,
 				7871AD5A1D18C40D0031AD41 /* Assets.xcassets in Resources */,
 				7871AD581D18C40D0031AD41 /* Main.storyboard in Resources */,
+				952404351D255E8C0074CE72 /* adimage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,6 +867,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952404361D255E8C0074CE72 /* IMYADLaunchDemo.m in Sources */,
 				7871ADA91D18C41A0031AD41 /* NSBundle+XYAdd.m in Sources */,
 				784DF6A71D1B6BF100DD05AB /* UIImage+CreatImage.m in Sources */,
 				7871AE5E1D18C9D70031AD41 /* AFSecurityPolicy.m in Sources */,
@@ -917,6 +960,7 @@
 				7871ADC31D18C41A0031AD41 /* UITextField+XYAdd.m in Sources */,
 				7871AE341D18C6040031AD41 /* UIScrollView+YYAdd.m in Sources */,
 				7871AE881D18CA360031AD41 /* SDWebImageDecoder.m in Sources */,
+				952404371D255E8C0074CE72 /* IMYWebViewController.m in Sources */,
 				7871AE1E1D18C6040031AD41 /* NSDictionary+YYAdd.m in Sources */,
 				7871ADAB1D18C41A0031AD41 /* NSDate+XYAdd.m in Sources */,
 			);
