@@ -19,7 +19,14 @@
                         <subviews>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKn-eR-lm9">
                                 <rect key="frame" x="115" y="269" width="90" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.70599964709999996" blue="0.72770759500000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="啦啦啦啦啦啦"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="actionDoSomething:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5LI-MX-9kP"/>
                                 </connections>

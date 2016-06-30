@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 
 
+#if __has_include(<XYDispatchQueuePool/XYDispatchQueuePool.h>)
+FOUNDATION_EXPORT double XYDispatchQueuePoolVersionNumber;
+FOUNDATION_EXPORT const unsigned char XYDispatchQueuePoolVersionString[];
+#endif
+
+
 #ifndef XYDisPatchQueuePool_h
 #define YYDispatchQueuePool_h
 

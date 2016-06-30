@@ -10,4 +10,6 @@
 
 @interface NSThread (XYAdd)
 
+
+
 @end
