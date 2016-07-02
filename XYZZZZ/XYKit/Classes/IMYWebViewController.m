@@ -20,7 +20,7 @@
     self.title = @"我是广告";
     self.webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
     self.webView.backgroundColor = [UIColor whiteColor];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.cocoachina.com/ios/20160621/16764.html"]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
     [self.view addSubview:self.webView];
 }
 @end

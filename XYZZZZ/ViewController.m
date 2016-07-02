@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "UIButton+CountDown.h"
-#import "YYCategoriesMacro.h"
+#import "KeyboardControlViewController.h"
 
 #define keyPath(objc, keyPath) @(((void)objc.keyPath, #keyPath))
 
@@ -24,6 +24,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+
+    
+}
+
+
+// 一个图片遮挡擦除
+- (void)aImageHideView {
+
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(7, 50, 400, 400)];
     label.text = @"离思五首\n元稹\n曾经沧海难为水,\n除却巫山不是云!\n取次花丛懒回顾,\n半缘修道半缘君!\n";
     label.numberOfLines = 0;
@@ -37,12 +45,11 @@
     [self.view addSubview:self.imageView ];
     
     
-
-    [self.imageView addObserver:self forKeyPath:keyPath(self.imageView, frame) options:NSKeyValueObservingOptionNew context:nil];
     
-    NSLog(@"%d", YY_CLAMP(6, 2, 3));
-    NSLog(@"a");
+    [self.imageView addObserver:self forKeyPath:keyPath(self.imageView, frame) options:NSKeyValueObservingOptionNew context:nil];
+
 }
+
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     // 触摸任意位置
@@ -69,9 +76,13 @@
 
 - (IBAction)actionDoSomething:(UIButton *)sender {
     
-    [sender countDownFromTime:5 unitTitle:@"秒" completion:^(UIButton *countDownButton) {
-        NSLog(@"😄");
-    }];
+    KeyboardControlViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"KeyboardControlViewController"];
+    [self.navigationController pushViewController:viewController animated:YES];
+    
+    //一个倒数秒数
+//    [sender countDownFromTime:5 unitTitle:@"秒" completion:^(UIButton *countDownButton) {
+//        NSLog(@"😄");
+//    }];
     
 }
 
