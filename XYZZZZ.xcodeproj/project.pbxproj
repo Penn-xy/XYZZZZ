@@ -29,7 +29,7 @@
 		7871ADB31D18C41A0031AD41 /* NSThread+XYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AD7F1D18C4190031AD41 /* NSThread+XYAdd.m */; };
 		7871ADB41D18C41A0031AD41 /* NSTimer+XYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AD811D18C4190031AD41 /* NSTimer+XYAdd.m */; };
 		7871ADB51D18C41A0031AD41 /* CALayer+XYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AD841D18C4190031AD41 /* CALayer+XYAdd.m */; };
-		7871ADB61D18C41A0031AD41 /* YYCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AD861D18C4190031AD41 /* YYCGUtilities.m */; };
+		7871ADB61D18C41A0031AD41 /* XYCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AD861D18C4190031AD41 /* XYCGUtilities.m */; };
 		7871ADB71D18C41A0031AD41 /* UIApplication+XYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AD891D18C4190031AD41 /* UIApplication+XYAdd.m */; };
 		7871ADB81D18C41A0031AD41 /* UIBarButtonItem+XYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AD8B1D18C4190031AD41 /* UIBarButtonItem+XYAdd.m */; };
 		7871ADB91D18C41A0031AD41 /* UIBezierPath+XYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7871AD8D1D18C4190031AD41 /* UIBezierPath+XYAdd.m */; };
@@ -180,8 +180,8 @@
 		7871AD811D18C4190031AD41 /* NSTimer+XYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+XYAdd.m"; sourceTree = "<group>"; };
 		7871AD831D18C4190031AD41 /* CALayer+XYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XYAdd.h"; sourceTree = "<group>"; };
 		7871AD841D18C4190031AD41 /* CALayer+XYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XYAdd.m"; sourceTree = "<group>"; };
-		7871AD851D18C4190031AD41 /* YYCGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCGUtilities.h; sourceTree = "<group>"; };
-		7871AD861D18C4190031AD41 /* YYCGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCGUtilities.m; sourceTree = "<group>"; };
+		7871AD851D18C4190031AD41 /* XYCGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCGUtilities.h; sourceTree = "<group>"; };
+		7871AD861D18C4190031AD41 /* XYCGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCGUtilities.m; sourceTree = "<group>"; };
 		7871AD881D18C4190031AD41 /* UIApplication+XYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+XYAdd.h"; sourceTree = "<group>"; };
 		7871AD891D18C4190031AD41 /* UIApplication+XYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+XYAdd.m"; sourceTree = "<group>"; };
 		7871AD8A1D18C4190031AD41 /* UIBarButtonItem+XYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XYAdd.h"; sourceTree = "<group>"; };
@@ -543,8 +543,8 @@
 			children = (
 				7871AD831D18C4190031AD41 /* CALayer+XYAdd.h */,
 				7871AD841D18C4190031AD41 /* CALayer+XYAdd.m */,
-				7871AD851D18C4190031AD41 /* YYCGUtilities.h */,
-				7871AD861D18C4190031AD41 /* YYCGUtilities.m */,
+				7871AD851D18C4190031AD41 /* XYCGUtilities.h */,
+				7871AD861D18C4190031AD41 /* XYCGUtilities.m */,
 			);
 			path = Quartz;
 			sourceTree = "<group>";
@@ -1047,8 +1047,12 @@
 				7871AE1C1D18C6040031AD41 /* NSData+YYAdd.m in Sources */,
 				7871AE251D18C6040031AD41 /* NSString+YYAdd.m in Sources */,
 				7871ADC91D18C5CA0031AD41 /* YYKeyboardManager.m in Sources */,
+<<<<<<< HEAD
 				7871ADB61D18C41A0031AD41 /* YYCGUtilities.m in Sources */,
 				95DFBCA81D2774AE00776DFC /* IQUIView+Hierarchy.m in Sources */,
+=======
+				7871ADB61D18C41A0031AD41 /* XYCGUtilities.m in Sources */,
+>>>>>>> my-category
 				7871AE2B1D18C6040031AD41 /* UIBarButtonItem+YYAdd.m in Sources */,
 				7871AE841D18CA360031AD41 /* MKAnnotationView+WebCache.m in Sources */,
 				7871AE891D18CA360031AD41 /* SDWebImageDownloader.m in Sources */,
