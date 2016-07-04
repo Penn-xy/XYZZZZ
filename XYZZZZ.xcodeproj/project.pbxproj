@@ -1047,12 +1047,9 @@
 				7871AE1C1D18C6040031AD41 /* NSData+YYAdd.m in Sources */,
 				7871AE251D18C6040031AD41 /* NSString+YYAdd.m in Sources */,
 				7871ADC91D18C5CA0031AD41 /* YYKeyboardManager.m in Sources */,
-<<<<<<< HEAD
-				7871ADB61D18C41A0031AD41 /* YYCGUtilities.m in Sources */,
-				95DFBCA81D2774AE00776DFC /* IQUIView+Hierarchy.m in Sources */,
-=======
 				7871ADB61D18C41A0031AD41 /* XYCGUtilities.m in Sources */,
->>>>>>> my-category
+				95DFBCA81D2774AE00776DFC /* IQUIView+Hierarchy.m in Sources */,
+				7871ADB61D18C41A0031AD41 /* XYCGUtilities.m in Sources */,
 				7871AE2B1D18C6040031AD41 /* UIBarButtonItem+YYAdd.m in Sources */,
 				7871AE841D18CA360031AD41 /* MKAnnotationView+WebCache.m in Sources */,
 				7871AE891D18CA360031AD41 /* SDWebImageDownloader.m in Sources */,
