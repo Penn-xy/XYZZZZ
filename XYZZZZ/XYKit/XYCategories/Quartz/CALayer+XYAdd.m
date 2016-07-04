@@ -8,7 +8,7 @@
 
 #import "CALayer+XYAdd.h"
 #import "XYCategoriesMacro.h"
-#import "XYCGUtilities.h"
+#import "YYCGUtilities.h"
 
 XYSYNTH_DUMMY_CLASS(CALayer_XYAdd)
 
@@ -277,11 +277,11 @@ XYSYNTH_DUMMY_CLASS(CALayer_XYAdd)
 }
 
 - (UIViewContentMode)contentMode {
-    return XYCAGravityToUIViewContentMode(self.contentsGravity);
+    return YYCAGravityToUIViewContentMode(self.contentsGravity);
 }
 
 - (void)setContentMode:(UIViewContentMode)contentMode {
-    self.contentsGravity = XYUIViewContentModeToCAGravity(contentMode);
+    self.contentsGravity = YYUIViewContentModeToCAGravity(contentMode);
 }
 
 - (void)addFadeAnimationWithDuration:(NSTimeInterval)duration curve:(UIViewAnimationCurve)curve {
