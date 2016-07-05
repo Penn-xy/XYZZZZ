@@ -10,7 +10,7 @@
 #import "UIDevice+XYAdd.h"
 #import "NSString+XYAdd.h"
 #import "XYCategoriesMacro.h"
-#import "XYCGUtilities.h"
+#import "YYCGUtilities.h"
 #import <ImageIO/ImageIO.h>
 #import <Accelerate/Accelerate.h>
 #import <CoreText/CoreText.h>
@@ -281,7 +281,7 @@ static NSTimeInterval _xy_CGImageSourceGetGIFFrameDelayAtIndex(CGImageSourceRef 
 }
 
 - (void)drawInRect:(CGRect)rect withContentMode:(UIViewContentMode)contentMode clipsToBounds:(BOOL)clips{
-    CGRect drawRect = XYCGRectFitWithContentMode(rect, self.size, contentMode);
+    CGRect drawRect = YYCGRectFitWithContentMode(rect, self.size, contentMode);
     if (drawRect.size.width == 0 || drawRect.size.height == 0) return;
     if (clips) {
         CGContextRef context = UIGraphicsGetCurrentContext();
