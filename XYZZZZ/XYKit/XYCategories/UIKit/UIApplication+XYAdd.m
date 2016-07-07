@@ -15,7 +15,7 @@
 #import <mach/mach.h>
 #import <objc/runtime.h>
 
-//XYSYNTH_DUMMY_CLASS(UIApplication_XYAdd)
+XYSYNTH_DUMMY_CLASS(UIApplication_XYAdd)
 
 #define kNetworkIndicatorDelay (1/30.0)
 @interface _XYUIApplicationNetworkIndicatorInfo : NSObject

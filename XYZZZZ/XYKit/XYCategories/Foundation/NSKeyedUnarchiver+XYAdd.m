@@ -9,7 +9,7 @@
 #import "NSKeyedUnarchiver+XYAdd.h"
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(NSKeyedUnarchiver_XYAdd)
+XYSYNTH_DUMMY_CLASS(NSKeyedUnarchiver_XYAdd)
 
 
 

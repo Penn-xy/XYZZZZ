@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(UIView_XYAdd)
+XYSYNTH_DUMMY_CLASS(UIView_XYAdd)
 
 @implementation UIView (XYAdd)
 

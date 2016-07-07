@@ -11,7 +11,7 @@
 #import <CoreText/CoreText.h>
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(UIBezierPath_XYAdd)
+XYSYNTH_DUMMY_CLASS(UIBezierPath_XYAdd)
 
 @implementation UIBezierPath (XYAdd)
 

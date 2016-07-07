@@ -10,7 +10,7 @@
 #import "NSString+XYAdd.h"
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(NSNumber_XYAdd)
+XYSYNTH_DUMMY_CLASS(NSNumber_XYAdd)
 
 @implementation NSNumber (XYAdd)
 

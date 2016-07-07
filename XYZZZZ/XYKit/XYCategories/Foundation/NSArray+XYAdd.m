@@ -7,10 +7,10 @@
 //
 
 #import "NSArray+XYAdd.h"
-#import "YYCategoriesMacro.h"
-#import "NSData+YYAdd.h"
+#import "XYCategoriesMacro.h"
+#import "NSData+XYAdd.h"
 
-//YYSYNTH_DUMMY_CLASS(NSArray_YYAdd)
+XYSYNTH_DUMMY_CLASS(NSArray_XYAdd)
 
 @implementation NSArray (XYAdd)
 

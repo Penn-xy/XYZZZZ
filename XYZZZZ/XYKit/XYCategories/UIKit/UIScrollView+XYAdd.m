@@ -9,7 +9,7 @@
 #import "UIScrollView+XYAdd.h"
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(UIScrollView_XYAdd)
+XYSYNTH_DUMMY_CLASS(UIScrollView_XYAdd)
 
 
 @implementation UIScrollView (XYAdd)

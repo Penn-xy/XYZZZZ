@@ -10,7 +10,7 @@
 #import "XYCategoriesMacro.h"
 #import "UIDevice+XYAdd.h"
 
-//XYSYNTH_DUMMY_CLASS(UIScreen_XYAdd);
+XYSYNTH_DUMMY_CLASS(UIScreen_XYAdd);
 
 
 

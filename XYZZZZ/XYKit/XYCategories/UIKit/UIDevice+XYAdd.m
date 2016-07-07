@@ -17,7 +17,7 @@
 #import "XYCategoriesMacro.h"
 #import "NSString+XYAdd.h"
 
-//XYSYNTH_DUMMY_CLASS(UIDevice_XYAdd)
+XYSYNTH_DUMMY_CLASS(UIDevice_XYAdd)
 
 @implementation UIDevice (XYAdd)
 
