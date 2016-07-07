@@ -11,7 +11,7 @@
 #import "NSData+XYAdd.h"
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(NSDictionary_XYAdd)
+XYSYNTH_DUMMY_CLASS(NSDictionary_XYAdd)
 
 @interface _XYXMLDictionaryParser : NSObject <NSXMLParserDelegate>
 @end

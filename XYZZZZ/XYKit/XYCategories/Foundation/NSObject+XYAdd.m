@@ -11,7 +11,7 @@
 #import <objc/objc.h>
 #import <objc/runtime.h>
 
-//XYSYNTH_DUMMY_CLASS(NSObject_XYAdd)
+XYSYNTH_DUMMY_CLASS(NSObject_XYAdd)
 
 
 @implementation NSObject (XYAdd)

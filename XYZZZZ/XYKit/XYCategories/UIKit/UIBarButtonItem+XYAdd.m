@@ -10,7 +10,7 @@
 #import "XYCategoriesMacro.h"
 #import <objc/runtime.h>
 
-//XYSYNTH_DUMMY_CLASS(UIBarButtonItem_XYAdd)
+XYSYNTH_DUMMY_CLASS(UIBarButtonItem_XYAdd)
 
 static const int block_key;
 

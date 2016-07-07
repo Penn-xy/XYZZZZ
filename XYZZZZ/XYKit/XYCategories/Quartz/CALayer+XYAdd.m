@@ -8,7 +8,7 @@
 
 #import "CALayer+XYAdd.h"
 #import "XYCategoriesMacro.h"
-#import "YYCGUtilities.h"
+#import "XYCGUtilities.h"
 
 XYSYNTH_DUMMY_CLASS(CALayer_XYAdd)
 

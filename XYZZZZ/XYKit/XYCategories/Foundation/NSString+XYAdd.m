@@ -12,7 +12,7 @@
 #import "UIDevice+XYAdd.h"
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(NSString_XYAdd)
+XYSYNTH_DUMMY_CLASS(NSString_XYAdd)
 
 @implementation NSString (XYAdd)
 

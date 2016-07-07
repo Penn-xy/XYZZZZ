@@ -9,7 +9,7 @@
 #import "UIFont+XYAdd.h"
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(UIFont_XYAdd)
+XYSYNTH_DUMMY_CLASS(UIFont_XYAdd)
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wprotocol"

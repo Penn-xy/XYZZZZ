@@ -10,7 +10,7 @@
 #include <pthread.h>
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(NSNotificationCenter_XYAdd)
+XYSYNTH_DUMMY_CLASS(NSNotificationCenter_XYAdd)
 
 @implementation NSNotificationCenter (XYAdd)
 

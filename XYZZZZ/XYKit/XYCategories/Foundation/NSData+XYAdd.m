@@ -12,7 +12,7 @@
 #include <zlib.h>
 
 
-//XYSYNTH_DUMMY_CLASS(NSData_XYAdd)
+XYSYNTH_DUMMY_CLASS(NSData_XYAdd)
 
 @implementation NSData (XYAdd)
 

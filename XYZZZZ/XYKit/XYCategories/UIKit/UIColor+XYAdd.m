@@ -10,7 +10,7 @@
 #import "NSString+XYAdd.h"
 #import "XYCategoriesMacro.h"
 
-//XYSYNTH_DUMMY_CLASS(UIColor_XYAdd)
+XYSYNTH_DUMMY_CLASS(UIColor_XYAdd)
 
 
 #define CLAMP_COLOR_VALUE(v) (v) = (v) < 0 ? 0 : (v) > 1 ? 1 : (v)

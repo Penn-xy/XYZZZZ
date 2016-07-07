@@ -10,7 +10,7 @@
 #import "XYCategoriesMacro.h"
 #import <time.h>
 
-//XYSYNTH_DUMMY_CLASS(NSDate_XYAdd)
+XYSYNTH_DUMMY_CLASS(NSDate_XYAdd)
 
 @implementation NSDate (XYAdd)
 

@@ -10,12 +10,11 @@
 #import "UIDevice+XYAdd.h"
 #import "NSString+XYAdd.h"
 #import "XYCategoriesMacro.h"
-#import "YYCGUtilities.h"
+#import "XYCGUtilities.h"
 #import <ImageIO/ImageIO.h>
 #import <Accelerate/Accelerate.h>
 #import <CoreText/CoreText.h>
 #import <objc/runtime.h>
-#import "XYCGUtilities.h"
 
 XYSYNTH_DUMMY_CLASS(UIImage_XYAdd)
 
