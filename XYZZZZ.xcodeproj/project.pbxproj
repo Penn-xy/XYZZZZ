@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		785E37341D3473C600553095 /* UtilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 785E37331D3473C600553095 /* UtilObject.m */; };
 		7871AD5A1D18C40D0031AD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7871AD591D18C40D0031AD41 /* Assets.xcassets */; };
 		7871AE3B1D18C75F0031AD41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7871AE3A1D18C75F0031AD41 /* UIKit.framework */; };
 		7871AE3D1D18C76A0031AD41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7871AE3C1D18C76A0031AD41 /* CoreGraphics.framework */; };
@@ -109,6 +110,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		785E37321D3473C600553095 /* UtilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilObject.h; sourceTree = "<group>"; };
+		785E37331D3473C600553095 /* UtilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilObject.m; sourceTree = "<group>"; };
 		7871AD4A1D18C40D0031AD41 /* XYZZZZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZZZZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7871AD591D18C40D0031AD41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		7871AE3A1D18C75F0031AD41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -418,6 +421,8 @@
 				7875C4A71D2F332A00E13615 /* YYAsyncLayer */,
 				7875C4AE1D2F332A00E13615 /* YYDispatchQueuePool */,
 				7875C4B11D2F332A00E13615 /* YYKeyboardManager */,
+				785E37321D3473C600553095 /* UtilObject.h */,
+				785E37331D3473C600553095 /* UtilObject.m */,
 			);
 			path = MyPackagePractice;
 			sourceTree = "<group>";
@@ -880,6 +885,7 @@
 				7875C4D31D2F332A00E13615 /* UITableView+XYAdd.m in Sources */,
 				7875C5501D2F334300E13615 /* IQTextView.m in Sources */,
 				7875C5661D2F334300E13615 /* UIImageView+WebCache.m in Sources */,
+				785E37341D3473C600553095 /* UtilObject.m in Sources */,
 				7875C4CC1D2F332A00E13615 /* UIControl+XYAdd.m in Sources */,
 				7875C4521D2F331800E13615 /* KeyboardControlViewController.m in Sources */,
 				7875C5581D2F334300E13615 /* MKAnnotationView+WebCache.m in Sources */,
